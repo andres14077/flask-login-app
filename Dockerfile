@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy necessary files
 COPY requirements.txt requirements.txt
 COPY flask_login_app/ flask_login_app/
-COPY test/ test/
+COPY tests/ tests/
 # Install dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
